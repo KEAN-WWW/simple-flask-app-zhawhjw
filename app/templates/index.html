@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% import 'user.html' as macros %}
+<html lang="en">
+<head>
+<title>Flask Tutorial</title>
+</head>
+<body>
+<h1>This is the Index page from Templates</h1>
+{{macros.render_song_title('pineapple')}}
+</body>
+</html>
